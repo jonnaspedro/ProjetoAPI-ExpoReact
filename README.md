@@ -10,12 +10,12 @@ Envio de notificações push entre usuários.
 Navegação entre as telas de Cadastro, Login e Notificação.
 
 ##  Tecnologias
-React Native
-Expo
-Supabase
-Expo Notifications
-React Navigation
-Fetch
+- React Native
+- Expo
+- Supabase
+- Expo Notifications
+- React Navigation
+- Fetch
 
 ##  Objetivo
 
