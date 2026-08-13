@@ -1,66 +1,22 @@
-# Criando App do Zero com Expo (SDK 54)
+## App de Notificações Push
 
-## Criação do Projeto
+Aplicativo desenvolvido em React Native com Expo, utilizando Supabase para cadastro e consulta de usuários e Expo Notifications para notificações push.
 
-- npx create-expo-app meuapp --template bare-minimum@sdk-54
-- cd meuapp
+# Funcionalidades
+Cadastro de usuário com nome, e-mail, senha e token push.
+Login utilizando e-mail e senha.
+Consulta de usuários cadastrados no Supabase.
+Envio de notificações push entre usuários.
+Navegação entre as telas de Cadastro, Login e Notificação.
 
-## Instalação das Dependências
+# Tecnologias
+React Native
+Expo
+Supabase
+Expo Notifications
+React Navigation
+Fetch
 
-### Navegação
-- npm install @react-navigation/native
-- npm install @react-navigation/native-stack
-- npm install @react-navigation/bottom-tabs
-- npx expo install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated
+# Objetivo
 
-### UI e Ícones
-- npm install react-native-elements
-- npm install react-native-vector-icons
-- npx expo install @expo/vector-icons
-
-### Funcionalidades Expo
-- npx expo install expo-notifications expo-constants expo-device
-- npx expo install expo-image-picker
-
-### Serviços e Comunicação
-- npm install axios
-- npm install firebase
-- npx expo install react-dom react-native-web
-
-### Finalizar Instalação
-- npm install
-
-### Instalação das Ferramentas Globais
-- npm install -g expo-cli
-- npm install -g eas-cli
-
-### Autenticação no Expo
-- eas login
-  - E-mail
-  - Senha
-
-### Configuração do Projeto para EAS
-- eas build:configure
-  - yes
-  - yes
-  - enter
-  - ALL
-
-### Gerar APK Preview
-- eas build -p android --profile preview
-  - Acesse o link gerado e aguarde a conclusão do APK
-
-## Verificando Dependências
-
-- npx @ngrok
-- npm install @ngrok/ngrok
-
-## npx expo start --tunnel
-
-- Acesar o app Expo Go
-- Escanear o QrCode
-- Copiar o código
-
-## Link do Expo - Envio de Notificação
-
-https://expo.dev/notifications
+Praticar desenvolvimento mobile, navegação entre telas, formulários, consumo de API REST, integração com Supabase e notificações push.
